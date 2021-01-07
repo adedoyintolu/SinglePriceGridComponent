@@ -1,0 +1,113 @@
+
+body{
+  margin: 5% auto;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-image: 
+   linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+   url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+h4{
+  font-size: 18px;
+  color: #ffffff;
+}
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+  width: 800px;
+  height: 100%;
+}
+.secOne{
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px 5px 0px 0px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 40%;
+  height: 280px;
+  padding: 40px;
+}
+.secOne>h1{
+  color: #2BB3B1;
+  font-size: 30px;
+}
+.secOne>h6{
+  color: #CADF5D;
+  font-size: 15px;
+}
+.secOne p{
+  color: #C0C4CF;
+  margin-top: -20px;
+}
+.columnOne a{
+  color: #ffffff;
+  background-color: #CADF5D;
+  padding: 15px 125px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 3px rgba(135, 135, 135, 0.3);
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+}
+.columnOne a:hover{
+  color: #ffffff;
+  background-color: #4ABEBD;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: none;
+  cursor: pointer;
+}
+.columnOne{
+  background-color: #2BB3B1;
+  border-radius: 0px 0px 0px 5px;
+}
+span{
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.columnOne p{
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: -10px;
+}
+#fullAccess{
+  margin-bottom: 60px;
+}
+#perMonth{
+  margin-top: 20px;
+}
+.columnTwo{
+  background-color: #4ABEBD;
+  border-radius: 0px 0px 5px 0px;
+}
+.columnTwo p{
+  color: rgba(255, 255, 255, 0.7);
+}
+@media screen and (max-width: 816px) {
+  .column {
+    width: 100%;
+  } 
+}
+@media screen and (max-width: 798px){
+  .columnOne a{
+    padding: 10px 40px;
+  }
+}
